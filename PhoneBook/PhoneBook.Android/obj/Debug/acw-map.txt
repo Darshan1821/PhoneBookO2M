@@ -1,0 +1,8 @@
+PhoneBook.Droid.MainActivity, PhoneBook.Android;md525c020f6971959cc25081ed41666e5c9.MainActivity
+PhoneBook.Droid.MainActivity, PhoneBook.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md525c020f6971959cc25081ed41666e5c9.MainActivity
+PhoneBook.Droid.MainActivity;md525c020f6971959cc25081ed41666e5c9.MainActivity
+phonebook.droid.MainActivity;md525c020f6971959cc25081ed41666e5c9.MainActivity
+PhoneBook.Droid.MyAdapter, PhoneBook.Android;md525c020f6971959cc25081ed41666e5c9.MyAdapter
+PhoneBook.Droid.MyAdapter, PhoneBook.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md525c020f6971959cc25081ed41666e5c9.MyAdapter
+PhoneBook.Droid.MyAdapter;md525c020f6971959cc25081ed41666e5c9.MyAdapter
+phonebook.droid.MyAdapter;md525c020f6971959cc25081ed41666e5c9.MyAdapter

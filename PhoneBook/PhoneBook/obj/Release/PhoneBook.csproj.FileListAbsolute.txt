@@ -1,0 +1,10 @@
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\PhoneBook.dll
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\PhoneBook.pdb
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\SQLite-net.dll
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\SQLitePCLRaw.batteries_green.dll
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\SQLitePCLRaw.batteries_v2.dll
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\SQLitePCLRaw.core.dll
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\bin\Release\SQLite-net.xml
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\obj\Release\PhoneBook.csprojResolveAssemblyReference.cache
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\obj\Release\PhoneBook.dll
+c:\users\dexter\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook\obj\Release\PhoneBook.pdb
