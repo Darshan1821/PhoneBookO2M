@@ -43,6 +43,16 @@ namespace PhoneBook.Droid
             await sqlConnection.DeleteAsync(employee);
         }
 
+        public async Task InsertWithChild(Employee employee)
+        {
+            await sqlConnection.InsertWithChildrenAsync(employee, recursive: true);
+        }
+
+        public async Task<List<Employee>> GetWithChild()
+        {
+            return await sqlConnection.GetAllWithChildrenAsync<Employee>(recursive:true);
+        }
+
         public async Task AddEmployee(Employee employee)
         {
             await sqlConnection.InsertAsync(employee);

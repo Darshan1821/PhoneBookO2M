@@ -23,7 +23,7 @@ namespace PhoneBook.Droid
         [MaxLength(250)]
         public string empName { get; set;}
 
-        [OneToMany("empid")]
+        [OneToMany("empid", CascadeOperations = CascadeOperation.All)]
         public List<Contact> contactList { get; set; }
     }
 }

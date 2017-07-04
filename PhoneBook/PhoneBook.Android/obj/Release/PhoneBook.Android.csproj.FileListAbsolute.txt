@@ -40,3 +40,4 @@ C:\Users\Dexter\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\PhoneB
 C:\Users\Dexter\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook.Android\bin\Release\SQLiteNetExtensionsAsync.dll
 C:\Users\Dexter\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook.Android\bin\Release\SQLiteNetExtensionsAsync.dll.mdb
 C:\Users\Dexter\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook.Android\obj\Release\res\layout\listview_row.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\PhoneBook.Android\obj\Release\android\assets\SQLiteNetExtensionsAsync.dll.mdb

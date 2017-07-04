@@ -45,21 +45,15 @@ namespace PhoneBook.Droid
                     if (num1.Text.Length != 0) { 
                         var newContact = new Contact { contactName = num1.Text.ToString() };
                         empContact.Add(newContact);
-                        await repository.AddContact(newContact);
                     }
                     if (num2.Text.Length != 0)
                     {
                         var newContact1 = new Contact { contactName = num2.Text.ToString() };
                         empContact.Add(newContact1);
-                        await repository.AddContact(newContact1);
                     }
 
-                    var emp = new Employee { empName = name.Text.ToString() };
-                    await emprepo.AddEmployee(emp);
-
-                    emp.contactList = empContact;
-
-                    await emprepo.UpdateEmployee(emp);
+                    var emp = new Employee { empName = name.Text.ToString() , contactList = empContact};
+                    await emprepo.InsertWithChild(emp);
 
                     contactList = new List<string>();
                     MyAdapter adapter = new MyAdapter(this, contactList);
@@ -82,8 +76,7 @@ namespace PhoneBook.Droid
 
         private async void Showemp_Click(object sender, EventArgs e)
         {
-            var emps = await emprepo.GetEmployees();
-            var contacts = await repository.GetContacts();
+            var emps = await emprepo.GetWithChild();
             string contactNo = "";
 
             contactList = new List<string>();
@@ -92,14 +85,7 @@ namespace PhoneBook.Droid
             {
                 contactList.Add("Name: " +c.empName);
 
-                foreach (var x in contacts)
-                {
-                    if (c.empid == x.empid)
-                    {
-                        contactNo += x.contactName + ", ";
-                    }
-                }
-
+                foreach(var m in c.contactList) { contactNo += m.contactName + ", ";  }
                 contactList.Add("Contact No: "+contactNo.Substring(0,contactNo.Length-2));
                 contactNo = "";
                 contactList.Add("");
